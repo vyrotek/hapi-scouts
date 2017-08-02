@@ -1,0 +1,8 @@
+{
+    "app": {
+        "port": 9000,
+        "jwtSecret": "jason_likes_sushi",
+        "jwtExpiration": "12h",
+        "routePrefix": "/api"
+    }
+}

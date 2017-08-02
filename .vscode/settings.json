@@ -1,0 +1,9 @@
+{
+    "explorer.openEditors.visible": 0,
+    "workbench.iconTheme": "vs-seti",
+    "editor.codeLens": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "default",
+        "driver": {
+            "type": "mysql",
+            "host": "host",
+            "port": 3306,
+            "username": "username",
+            "password": "password",
+            "database": "database"
+        },
+        "autoSchemaSync": true,
+        "entities": [
+            "out/scouts/scout.js",
+            "out/users/user.js"
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+{
+    "name": "scouts",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "author": "Jason Barnes",
+    "scripts": {
+        "tsc": "tsc",
+        "build": "gulp build",
+        "start": "node out/server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "hapi": "^16.1.1",
+        "hapi-auth-jwt2": "^7.2.4",
+        "hapi-swagger": "^7.7.0",
+        "boom": "^5.2.0",
+        "joi": "^10.5.0",
+        "jsonwebtoken": "^7.4.1",
+        "nconf": "^0.8.4",
+        "nodemon": "^1.11.0",
+        "path": "^0.12.7",
+        "inert": "^4.2.0",
+        "vision": "^4.1.1",
+        "typeorm": "^0.0.11",
+        "reflect-metadata": "^0.1.10",
+        "mysql": "^2.14.1"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.0",
+        "@types/hapi": "^16.1.2",
+        "@types/joi": "^10.3.2",
+        "@types/jsonwebtoken": "^7.2.0",
+        "@types/nconf": "0.0.34",
+        "@types/node": "^7.0.21",
+        "@types/uuid": "^3.4.0",
+        "node": "0.0.0",
+        "typescript": "^2.3.2",
+        "gulp": "^3.9.1",
+        "gulp-env": "^0.4.0",
+        "gulp-rimraf": "^0.2.1",
+        "gulp-shell": "^0.6.3"
+    },
+    "engines": {
+        "node": ">=7.6.0"
+    }
+}
